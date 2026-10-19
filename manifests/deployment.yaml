@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: playground
-        image: moughit1337a/claptrap-frontend
+        image: moughit1337a/claptrap-frontend:v1
         ports:
         - containerPort: 8888
