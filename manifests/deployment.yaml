@@ -16,4 +16,4 @@ spec:
       - name: playground
         image: moughit1337a/iot-app:v1
         ports:
-        - containerPort: 8888
+        - containerPort: 80
