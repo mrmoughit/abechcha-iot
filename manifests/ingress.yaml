@@ -12,5 +12,5 @@ spec:
           service:
             name: wil-playground
             port:
-              number: 80
+              number: 8080
               
