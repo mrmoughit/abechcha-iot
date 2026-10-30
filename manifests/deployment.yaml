@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: wil-playground
+  name: abechcha-playground
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: wil-playground
+      app: abechcha-playground
   template:
     metadata:
       labels:
-        app: wil-playground
+        app: abechcha-playground
     spec:
       containers:
       - name: playground
